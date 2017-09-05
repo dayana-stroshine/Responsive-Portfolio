@@ -237,3 +237,15 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-widths: 980px){
+   /* CSS stlying */
+} 
+
+@media only screen and (max-widths: 768px){
+  /* CSS stlying */
+} 
+
+@media only screen and (max-widths: 640px){
+  /* CSS stlying 
+} 
