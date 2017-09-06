@@ -238,14 +238,85 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (max-widths: 980px){
-   /* CSS stlying */
-} 
+/* media queries */
 
-@media only screen and (max-widths: 768px){
-  /* CSS stlying */
-} 
+@media only screen and (max-width: 980px) {
+  #logo {
+    margin-left: 10%;
+  }
 
-@media only screen and (max-widths: 640px){
-  /* CSS stlying 
-} 
+  nav {
+    margin-right: 10%;
+  }
+
+  .main-section {
+    margin-left: 10%;
+    max-width: 40%;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  .sidebar {
+    margin-right: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {  
+  .main-section {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+  .auth-image {
+    width: 50%;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+  #logo {
+    margin-left: 5%;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+
+  #logo {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav {
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin: 0;
+  }
+
+  #main-container {
+    padding-top: 1%;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  }
+}
